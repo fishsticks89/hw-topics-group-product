@@ -17,3 +17,5 @@
     1. The product’s frontend could be hosted on Vercel using the notoriously secure NextJS.
     1. The backend should be deployed on the same cloud as the GPUs running the model. This will likely be Azure, AWS, or GCP. 
     1. Updates can be rolled out using a CI pipeline that deploys both to Vercel and Dockerizes our backend server. The LLM can be hosted on its own VPS and modified manually, because it is not too easy to dockerize LLM inference.
+
+The slides are [here](https://docs.google.com/presentation/d/1r9-r2LeXjAqHSy5CAJK_rU04iFTAt6eBt5h4P0_Qt4A/edit#slide=id.p).
